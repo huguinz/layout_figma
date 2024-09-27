@@ -6,7 +6,7 @@ body {
 
 header {
     background-color:#0905A6;
-    padding: 10px 20px;
+    padding: 30px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,13 +33,29 @@ nav a:hover {
     color: #007bff;
 }
 
+form {
+    display: flex;
+    align-items: center;
+}
+
+input[type='text'] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    flex: 1;
+    max-width: 200px;
+}
+
+
 .nike-logo{
     width: 130px;
     height: auto;
     margin-right: 15px;
 }
 
-form {
-    display: flex;
-    align-items: center;
+.search-icon{
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 5px;
 }
