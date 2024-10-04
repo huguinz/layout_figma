@@ -1,15 +1,19 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #0905A6;
+    background-image: url(./img/Group\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 header {
-    background-color:#0905A6;
-    padding: 30px 20px;
+    padding: 1px 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 3px solid white;
 }
 
 nav ul {
@@ -20,42 +24,59 @@ nav ul {
 }
 
 nav li {
-    margin-right: 20px;
+    margin-right: 150px;
 }
 
 nav a {
     text-decoration: none;
-    color: #333;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif, Arial, sans-serif;
+    color: white;
+    font-size: 34px;
+    transition: transform 0.3s ease;
+    display: inline-block;
 }
 
 nav a:hover {
-    color: #007bff;
+    transform: scale(1.2);
 }
 
 form {
     display: flex;
     align-items: center;
+    margin-right: 150px;
 }
 
 input[type='text'] {
-    padding: 5px;
+    width: 280px;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 25px;
     border: 1px solid #ccc;
-    border-radius: 12px;
+    border-radius: 100px;
     flex: 1;
-    max-width: 200px;
+    max-width: 400px;
 }
 
 
 .nike-logo{
-    width: 130px;
+    width: 250px;
     height: auto;
-    margin-right: 15px;
+    margin-left: 1px;
+    transition: transform 0.3s ease;
+}
+
+.nike-logo:hover{
+    transform: scale(1.2);
 }
 
 .search-icon{
-    width: 20px;
+    width: 40px;
     height: auto;
     cursor: pointer;
-    margin-right: 5px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+.search-icon:hover{
+    transform: scale(1.2);
 }
