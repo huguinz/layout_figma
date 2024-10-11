@@ -24,6 +24,7 @@ main {
     height: 100vh;
     padding-left: 50px;
     padding-top: 90px;
+    position: relative;
 }
 
 button{
@@ -37,10 +38,6 @@ button{
     font-family: 'Inter', sans-serif;
     margin-top: 50px;
     margin-left: 250px;
-}
-
-.text-content {
-    text-align: left;
 }
 
 h1, h2 {
@@ -153,4 +150,68 @@ input[type='text'] {
 
 .star:hover {
     transform: scale(1.2); 
+}
+
+.TN-img{
+    position: absolute;
+    left: 1120px;
+    top: 20px;
+    transform: rotate(-30deg);
+}
+
+.TN-img img {
+    width: 1300px;
+    height: auto;
+
+}
+
+
+.background-image{
+    position: absolute;
+    top: -600px;
+    left: 1250px;
+    width: 2500px;
+    height: 2500px;
+    background-image: url(./img/barcelonamelhorado.png);
+    background-size: contain; 
+    background-position: left; 
+    background-repeat: no-repeat;
+    opacity: 0.10; 
+    z-index: -1;
+    transform: rotate(-30deg);
+}
+
+.text-content {
+    text-align: left;
+}
+
+.video-img{
+    position: absolute;
+    top: 1070px;
+    left: 2100px;
+    transition: transform 0.3s ease; 
+}
+
+.video-img:hover {
+    transform: scale(1.2); 
+}
+
+.trailer-text1{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    top: -45px;
+    left: 120px;
+    font-size: 40px;
+    font-style: italic
+}
+
+.trailer-text2{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    top: -5px;
+    left: 120px;
+    font-size: 55px;
+    font-style: italic;
 }
